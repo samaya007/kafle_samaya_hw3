@@ -1,0 +1,78 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*  *{
+    it forces different browser to use the same style
+  }   */
+
+
+  .hidden {
+    display: none;
+  }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: black;
+color: aqua;
+
+
+}
+
+/**/
+
+
+
+
+  /*
+  search different between period . and hashtags #
+  */
+
+ /*header rules*/
+
+ header {
+ 
+    background-color: red;
+text-align: center; 
+position: sticky;
+top: 0;
+
+}
+
+#marvel-logo{
+    width: 300px;
+padding: 10px 0px;}
+
+/*padding [10px for top and bottome]
+padding 10px 5px
+padding 10px 5px 3px
+padding-left 10px
+padding-bottom 3px
+
+all are correct
+
+*/
+
+
+footer{
+color: white;
+
+padding: 20px 0 20px 0;
+text-align: center;
+}
+
+.sticky_footer{
+
+position: sticky;
+top: 100%;
+background-color: rgb(30,70,90);
+
+}
